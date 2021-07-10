@@ -1,0 +1,26 @@
+.graphs{
+    border: 1px solid black;
+    margin-bottom: 40px;
+    padding-bottom: 45px;
+}
+.graphs-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.graphs-new h3{
+    text-decoration: none;
+    padding: 5px 20px;
+    text-align: center;
+    cursor: pointer;
+}
+@media only screen and (max-width: 500px) {
+    .graphs-new h3{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .graphs-new h3{
+        font-size: 12px;
+    }
+}

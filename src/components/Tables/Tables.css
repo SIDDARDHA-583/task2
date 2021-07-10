@@ -1,0 +1,115 @@
+.tables{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background: black;
+    margin-top: 20px;
+    margin-bottom : 20px;
+}
+.table-data{
+    background-color: white;
+    width: 100%;
+    border: 1px solid red;
+    margin: 30px 0px;
+}
+.table-data .header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+.header h2{
+    font-size: 22px;
+    font-weight: bold;
+}
+.header .button{
+    border: 1px solid red;
+    padding: 0px 10px;
+    background: red;
+    color: white;
+    font-weight: bold;
+
+}
+.main-table{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+thead {
+    text-align: center;
+    background-color: black;
+    border: none;
+    color: white;
+    box-shadow: 0 5px 5px grey;
+}
+th{
+    padding: 20px;
+}
+tbody{
+    padding: 10px;
+    text-align: center;
+}
+td{
+    padding: 17px;
+    color: grey;
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+    font-size: 14px;
+    text-align: center;
+}
+.success{
+    color: green;
+}
+.danger{
+    color: red;
+}
+
+.para{
+    padding-top: 5px;
+}
+.icon1{
+    font-size: 40px;
+}
+@media only screen and (max-width: 960px) {
+    table{
+        width: 100%;
+    }
+    th{
+        font-size: 10px;
+    }
+    td{
+        font-size: 12px;
+    }
+  }
+  
+  @media only screen and (max-width: 415px) {
+    .main-table{
+        margin-right: 10px;
+    }
+    table{
+        width: 100%;
+    }
+    th{
+        font-size: 8px;
+    }
+    td{
+        font-size: 10px;
+    }
+  }
+  @media only screen and (max-width: 385px) {
+    .main-table{
+        margin-left: -10px;
+    }
+    table{
+        width: 100%;
+    }
+    th{
+        font-size: 8px;
+    }
+    td{
+        font-size: 10px;
+    }
+  }
+  

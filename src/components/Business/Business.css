@@ -1,0 +1,247 @@
+.business h2{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+.business-padding{
+    padding-top: 35px;
+}
+.business-card{
+    display: flex;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    background: white;
+    margin-right: 20px;
+}
+.business-image{
+    width: 450px;
+}
+.business-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.business-title{
+    padding: 10px 20px;
+    font-size: 18px;
+}
+.business-info{
+    padding:0px 20px;
+    line-height: 20px;
+    font-size: 14px;
+}
+.business-btn{
+    margin: 10px 20px;
+}
+.left-arrow{ 
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 100px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 100%;
+    cursor: pointer;
+    background: grey;
+}
+.right-arrow{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 60px;
+    background: grey;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 100%;
+    cursor: pointer;
+}
+@media only screen and (max-width: 1300px) {
+    .business-card{
+        width: 900px;
+    }
+    .left-arrow{ 
+        margin-right: 100px;
+        height: 30px;
+        border: 1px solid black;
+        border-radius: 100%;
+        cursor: pointer;
+        background: red;
+    }
+  
+  }
+@media only screen and (max-width: 1200px) {
+    .business-card{
+        width: 900px;
+    }
+    .right-arrow, .left-arrow{
+       position: absolute;
+       bottom: 0;
+       margin-right: 500px;
+       
+    }
+  }
+  @media only screen and (max-width: 1100px) {
+    .business-card{
+        width: 900px;
+    }
+  }
+
+@media only screen and (max-width: 900px) {
+    .business-card{
+        width: 530px;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .business-card{
+        width: 580px;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    .business-card{
+        width: 550px;
+    }
+  }
+  @media only screen and (max-width: 650px) {
+    .business-card{
+        width: 470px;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .business-card{
+        width: 370px;
+    }
+    .business-image img{
+        object-fit: cover;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .business-card{
+        width: 320px;
+    }
+    .business-image img{
+        object-fit: cover;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .business{
+    margin-bottom: 30px;
+   
+}
+.business-header{
+    display: flex;
+    align-items: center;
+}
+.business-header .dots{
+    color: grey;
+    font-weight: bold;
+    padding-left: 10px;
+   
+}
+.business-card{
+    display: flex;
+    border: 1px solid grey;
+    background: white;
+    margin-right: 20px;
+    width: 550px;
+}
+.business-image{
+    width: 450px;
+}
+.business-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.business-title{
+    padding: 10px 20px;
+    font-size: 18px;
+}
+.business-info{
+    padding:0px 20px;
+    line-height: 20px;
+    font-size: 14px;
+}
+.business-btn{
+    margin: 10px 20px;
+}
+*/

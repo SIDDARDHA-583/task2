@@ -1,0 +1,186 @@
+.departments{
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+    padding: 25px;
+}
+.departments h2{
+    padding: 0px 10px;
+    font-size: 24px;
+}
+.depar1{
+    margin-right: 10px;
+    margin-left: 10px;   
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    position: relative;
+    width: 180px;
+    height: 190px;
+    transition: 0.3s ease-out;
+    margin-left: 20px;
+    background: white;
+    cursor: pointer;
+}
+.card .imgbox{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.card .imgbox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    padding: 10px 45px;
+    display: block;
+    transition: 0.5s;
+    text-align: center;
+}
+.card .content{
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    height: 45px;
+    padding: 0;
+    background: red;
+    transition: all 0.5s cubic-bezier(.48, -0.28, 0.41,1.4);
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+.card:hover .content{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    opacity: 0.5;
+}
+.content .card-info{
+    margin-top: 0px;
+    padding: 50px 1em;
+    transform: translateY(2em);
+    line-height: 20px;
+    transition: 0.3%;
+    text-align: justify;
+    font-size: 12px;
+    opacity: 0;
+    font-size: 14px;
+    font-size: bold;
+}
+.card:hover .content .card-info{
+    transform: translateY(0);
+    opacity: 1;
+
+}
+.card-title{
+    text-align: center;
+    padding: 0;
+    margin-top: 7px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.slick-prev{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: -32px;
+    margin-left: 1155px;
+    background:grey;
+    border-radius: 100%;
+    color: white;
+
+}
+.slick-next{
+    position: absolute;
+    top: 0;
+    margin-right: 70px;
+    margin-top: -32px;
+    background: grey;
+    color: white;
+    border-radius: 100%;
+
+}
+.slick-next:hover{
+    color: red;
+    background: red;
+    border-radius: 50%;
+}
+.slick-prev:hover{
+    color: red;
+    background: red;
+    border-radius: 50%;
+}
+@media only screen and (max-width: 1300px) {
+    .slick-prev{
+        margin-left: 1050px;
+    }
+  }
+  @media only screen and (max-width: 1300px) {
+    .slick-prev{
+        margin-left: 800px;
+    }
+  }
+
+
+@media only screen and (max-width: 1100px) {
+    .slick-prev{
+        margin-left: 800px;
+    }
+  }
+  @media only screen and (max-width: 1000px) {
+    .slick-prev{
+        margin-left: 450px;
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    .slick-prev{
+        margin-left: 470px;
+    }
+    .slick-next{
+        margin-left: 100px;
+    }
+  }
+ 
+@media only screen and (max-width: 700px) {
+    .slick-prev{
+        margin-left: 350px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .slick-prev{
+        margin-left: 400px;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .slick-prev{
+        margin-left: 300px;
+    }
+    .card{
+        margin-left: 70px;
+    }
+  }
+  
+  @media only screen and (max-width: 450px) {
+    .slick-prev{
+        margin-left: 220px;
+    }
+  }
+  @media only screen and (max-width: 380px) {
+    .slick-prev{
+        margin-left: 200px;
+    }
+  }

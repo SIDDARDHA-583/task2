@@ -1,0 +1,13 @@
+.charts{
+ border-top: 1px solid black;
+ width: 100%;
+}
+
+.bar-data{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bar-title{
+    color: red;
+}

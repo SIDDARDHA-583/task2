@@ -1,0 +1,45 @@
+.company{
+    margin-bottom: 30px;
+}
+.company-header{
+    background: black;
+    color: white;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding:1px 20px;
+}
+.company-body{
+    
+    margin-top: 0px;
+    border: 1px solid black;
+}
+.card1{
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.company-title{
+    padding: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.arrow{
+    color: red;
+    height: 40px;
+    width: 40px;
+    border:  1px solid red;
+    background: white;
+    border-radius: 100%;
+}
+.accordian1:hover{
+    border: 1px solid red;
+}
+.arrow:hover{
+    background-color: red;
+    color: white;
+}
